@@ -3,6 +3,7 @@ package vless
 import (
 	"bytes"
 	"encoding/binary"
+	"fmt"
 	"io"
 
 	vmess "github.com/sagernet/sing-vmess"
@@ -12,6 +13,10 @@ import (
 	M "github.com/sagernet/sing/common/metadata"
 	"github.com/sagernet/sing/common/rw"
 )
+
+func init() {
+	fmt.Println("****************** This is new sing vmess ******************")
+}
 
 var (
 	Version uint8 = 0
