@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	vmess "github.com/sagernet/sing-vmess"
+	vmess "github.com/niubir/sing-vmess"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/buf"
 	E "github.com/sagernet/sing/common/exceptions"

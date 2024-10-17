@@ -6,7 +6,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/sagernet/sing-vmess"
+	vmess "github.com/niubir/sing-vmess"
 	"github.com/sagernet/sing/common/auth"
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"
