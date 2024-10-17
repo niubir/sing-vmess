@@ -17,3 +17,7 @@ require (
 	github.com/klauspost/compress v1.17.4 // indirect
 	golang.org/x/sys v0.21.0 // indirect
 )
+
+replace (
+	github.com/sagernet/sing-vmess => github.com/niubir/sing-vmess v0.1.12
+)
